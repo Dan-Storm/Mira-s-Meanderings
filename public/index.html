@@ -1,20 +1,36 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Browserify Boilerplate</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mira's Meanderings</title>
 </head>
-
 <body>
-    <a href="home.html">Go Home</a>
-    <article class="output">
+    <h1>Mira's Meanderings</h1>
+    <div id="interests__div" class="interests__div">
 
-    </article>
+        <!-- body of content inside the interests div -->
+        <div class="interests__body">
+          <!-- interests header -->
+          <h3 class="interests__header">Your interests list:</h3>
+
+          <!-- interests output area -->
+          <section class="interests__display" id="interests__output"></section>
+          <button id="update__list">Update List</button>
+
+          <!-- input div for user to add interests -->
+          <div class="interests__input__div">
+            <label for="new__interests">Add Point Of Interest:<br>
+              <input type="text" id="interests__name" placeholder="enter name..."></input><br>
+              <input type="text" id="interests__description" placeholder="enter description..."></input><br>
+              <input type="text" id="interests__location" placeholder="enter location..."></input><br>
+              <input type="text" id="interests__cost" placeholder="enter cost..."></input><br>
+              <button class="interests__button" id="submit__interests">Submit New Point Of Interest</button>
+            </label>
+          </div>
+        </div>
 
     <script src="bundle.js"></script>
 </body>
-
 </html>

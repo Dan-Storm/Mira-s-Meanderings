@@ -1,0 +1,49 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "id": 1,
+      "name": "Pompeii",
+      "description": "Ancient Ruins of the city of Pompeii",
+      "cost": "10 Euros",
+      "location": "Italy"
+    },
+    {
+      "id": 2,
+      "name": "Museum of Music Boxes and Automatons",
+      "description": "The clockmaker Antoine Favre-Salomon, a native of Geneva, invented a musical pocket watch in 1796. Since then he is considered to be the inventor of the music box, and Sainte-Croix became the world capital of mechanical music. Music automatons are still produced here.",
+      "cost": "100 Euros",
+      "location": "Switzerland"
+    },
+    {
+      "id": 3,
+      "name": "La Cité du Vin",
+      "description": "Wine Museum",
+      "cost": "5 Euros",
+      "location": "France"
+    },
+    {
+      "name": "A Mountain",
+      "description": "Tall",
+      "location": "France",
+      "cost": "10.00",
+      "id": 4
+    }
+  ]
+}
